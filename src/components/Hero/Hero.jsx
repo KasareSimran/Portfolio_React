@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import heroImg from '/assets/hero/heroImage.png'
-import styles from './Hero.module.css'
+import styles from './Hero.module.css';
 function Hero(){
     return(
     <section className={styles.container}>
