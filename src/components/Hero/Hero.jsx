@@ -11,8 +11,8 @@ function Hero(){
             <a href="mailto:simrankasare5@gmail.com" className={styles.contactBtn}>Contact Me</a>
         </div>
         <img src={heroImg} alt='hero image for me' className={styles.heroImg}/>
-        <div className={StyleSheet.topBlur}/>
-        <div className={StyleSheet.bottomBlur}/>
+        <div className={styles.topBlur}/>
+        <div className={styles.bottomBlur}/>
 
     </section>)
 }
