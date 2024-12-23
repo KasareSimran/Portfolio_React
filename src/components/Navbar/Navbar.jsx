@@ -4,7 +4,7 @@ import { useState } from "react"
 
 import menuIcon from '/assets/nav/menuIcon.png'
 import closeIcon from '/assets/nav/closeIcon.png'
-import styles from './Navbar.module.css'
+import styles from './Navbar.module.css';
 
 function Navbar(){
     const [menuOpen,setmenuOpen]=useState(false)
