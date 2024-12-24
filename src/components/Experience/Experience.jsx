@@ -4,15 +4,15 @@ import skills from '../../data/skills.json'
 import history from '../../data/history.json'
 function Experience(){
     return(
-        <section id='experience'>
-            <h2>Experience</h2>
-            <div>
-                <div>
+        <section id='experience' className={styles.container}>
+            <h2 className={styles.title}>Experience</h2>
+            <div className={styles.content}>
+                <div className={styles.skills}>
                     {
                         skills.map((skill,id)=>{
                             return (
-                            <div key={id} >
-                                <div><img src={skill.imageSrc} alt={skill.title}/></div>
+                            <div key={id} className={styles.skill}>
+                                <div className={styles.skillImageContainer}><img src={skill.imageSrc} alt={skill.title}/></div>
                                 <p>{skill.title}</p>   
                             </div>
 
@@ -20,7 +20,7 @@ function Experience(){
                         })
                     }
                 </div>
-                <ul>
+                <ul className={styles.history}>
                 {history.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
