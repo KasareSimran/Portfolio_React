@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Portfolio",
+      "imageSrc": "/assets/project/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "CSS", "Figma"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Crop Recommendation System",
+      "imageSrc": "/assets/project/project.png",
+      "description": "This is a project made for farmer help to make decision to find best crops.",
+      "skills": ["Python", "HTML", "CSS", "Flasx"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Online Voting System",
+      "imageSrc": "/assets/project/project.png",
+      "description": "This is a project made to have a easily voting system using an online app.",
+      "skills": ["HTML", "CSS", "JS"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
