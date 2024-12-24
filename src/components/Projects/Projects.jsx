@@ -17,4 +17,4 @@ function Projects(){
     </section>
   );
 }
-export default Projects
+export default Projects;
